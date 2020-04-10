@@ -7,6 +7,8 @@ import retrofit2.http.GET;
 
 public interface JokesService {
 
-    @GET("/jokes/random/")
+    //GET method to call the endpoints of the API.
+    //Call method which will be used in the Main Activity to GET what we need.
+    @GET("/jokes/random?category=dev")
     Call<Jokes> getJokes();
 }

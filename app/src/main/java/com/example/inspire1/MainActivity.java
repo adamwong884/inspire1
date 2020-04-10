@@ -53,7 +53,10 @@ public class MainActivity extends AppCompatActivity {
             //Creating Joke class instance
 
             Jokes jokes = response.body();
+
             quote.setText(jokes.getValue());
+            refresh.setText("Not good enough");
+
 
         }
 
