@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    quote = (TextView)findViewById(R.id.tvQuote);
-    refresh = (Button)findViewById(R.id.bRefresh);
+    quote = findViewById(R.id.tvQuote);
+    refresh = findViewById(R.id.bRefresh);
 
 
 
